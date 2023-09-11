@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: itgo
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-jwqo-tenant/byoc-app-czwk/itgo@sha256:b4b49162b7305b4a7a5baa39838d7d73418fbc545e3ef3181feb08107db19a36
         name: my-java-quarkus
         ports:
         - containerPort: 8081
